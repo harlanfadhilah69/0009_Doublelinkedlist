@@ -137,7 +137,12 @@ void traverse()
 		{
 			cout << currentNode->noMhs << " " << currentNode->name << endl;
 			currentNode = currentNode->next;
-
 		}
 	}
+}
+
+void revtraverse()
+{
+	if (listEmpty())
+		cout << "\nList is Empty" << endl;
 }
