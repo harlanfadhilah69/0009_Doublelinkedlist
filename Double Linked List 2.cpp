@@ -129,4 +129,13 @@ void traverse()
 {
 	if (listEmpty())
 		cout << "\nList is empty" << endl;
+	else
+	{
+		cout << "\nRecords in asscending order of roll number: " << endl;
+		Node* currentNode = START;
+		while (currentNode != NULL)
+		{
+
+		}
+	}
 }
